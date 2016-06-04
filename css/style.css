@@ -1,0 +1,206 @@
+
+.signin{
+	padding: 133px 0px 0px 0px;
+	
+}
+.error{
+    display: none;
+   padding:17px;
+}       
+ 
+.error_show{
+    color: red;
+    
+}
+.error_show1{
+    color: red;
+    
+}
+.error_show2{
+    color: red;
+    
+}
+/* for disable body while importing */
+.disb {
+       pointer-events: none;
+       cursor: default;
+}
+
+.contact {
+    border-width: 3px 1px 1px;
+    border-style: solid;
+    border-color: #56458C #CFD9DB #CFD9DB;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-radius: 5px;
+    padding: 11px;
+      background-color: #F8F8F8;
+      font-size: 85%;
+}
+
+.contact_hr{
+  margin-top: 0px;
+  margin-bottom: 2px;
+  border: 0;
+  border-top: 1px solid #eee;
+
+}
+
+.contact_container{
+    padding:30px;
+
+}
+.contact_heading{
+    font-weight: bold;
+    padding: 5px 0px 0px 11px;
+}
+.contact_info{
+    
+    background-color: #E0DBF0;
+margin-left: -11px;
+  margin-right: -11px;
+
+}
+.contact_row{
+    padding: 0px 4px 0px 4px;
+}
+.req_info{
+    font-size: 12px;
+    padding: 8px 0px 0px 7px;
+}
+.red_line{
+      border-left: 3px solid #c00;
+  font-size: 80%;
+  vertical-align: 1px;
+  width: 100%;
+    margin-top: 2px;
+}
+.red_line_textbox{
+      border-left: 3px solid #c00;
+  
+  vertical-align: 1px;
+  width: 100%;
+    margin-top: 2px;
+}
+.form_fields{
+    padding: 8px 0px 0px 25px;
+
+}
+.lablecol{
+
+    text-align: left;
+    font-size: 91%;
+    font-weight: bold;
+    color: #333;
+
+}
+.textbox_height{
+      height: 29px;
+
+}
+.form_group_padding{
+    padding: 0px 0px 0px 24px;
+
+}
+.border{
+        border-top: 1px solid #DBDBDB;
+}
+.textbox_width{
+    width:130px;
+}
+.suffix{
+    padding: 0px 0px 0px 0px;
+}
+.error_show_contact{
+    display:none;
+    color:#D74C3B;
+    padding:0px 0px 0px 20px;
+
+}
+.error_color_upper{
+    font-weight: bold;
+color: #C00;
+text-align: center;
+
+}
+.new_contact_btn{
+  padding: 30px 0px 0px 48px;
+  float:right;
+}
+
+.tableresponse{
+    font-size: 15px;
+  }
+.toppadding{
+    padding: 40px 0px 0px 0px;
+}
+.pageheading{
+  padding: 10px 0px 0px 21px;
+}
+.pagesize{
+      padding: 20px 0px 0px 100px;
+}
+.export_excel{
+  padding: 30px 0px 0px 0px;
+}
+@media (max-width:767px) {
+  .tableresponse{
+    font-size: 10px;
+  }
+  .navbar-toggle {
+    position: relative;
+    float:left;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 3px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+#wrapper.toggled #sidebar-wrapper {
+    width: 110px;
+}
+#wrapper.toggled {
+    padding-left: 100px;
+}
+.signin{
+  padding: 91px 0px 0px 30px;
+  
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 5px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 0px;
+}
+.mobpagination{
+      width: 300px;
+}
+.suffix {
+    padding: 0px 0px 10px 16px;
+}
+.pagesize {
+    padding: 0px 0px 0px 0px;
+}
+.table_mobile{
+  width:330px;
+}
+.contact_mobile{
+  width: 203px;
+}
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 0px;
+}
+}
